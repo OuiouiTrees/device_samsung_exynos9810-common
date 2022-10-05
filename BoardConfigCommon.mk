@@ -99,9 +99,6 @@ TARGET_KERNEL_LLVM_BINUTILS := false
 DEVICE_MANIFEST_FILE += $(COMMON_PATH)/configs/vintf/manifest.xml
 DEVICE_MATRIX_FILE := $(COMMON_PATH)/configs/vintf/compatibility_matrix.xml
 
-# NGA
-TARGET_SUPPORTS_NEXT_GEN_ASSISTANT := true
-
 # Partitions
 BOARD_BOOTIMAGE_PARTITION_SIZE := 57671680
 BOARD_CACHEIMAGE_PARTITION_SIZE := 209715200
@@ -123,9 +120,6 @@ TARGET_BOOTLOADER_BOARD_NAME := exynos9810
 TARGET_SYSTEM_PROP += $(COMMON_PATH)/configs/props/system.prop
 TARGET_PRODUCT_PROP += $(COMMON_PATH)/configs/props/product.prop
 TARGET_VENDOR_PROP += $(COMMON_PATH)/configs/props/vendor.prop
-
-# Quick Tap
-TARGET_SUPPORTS_QUICK_TAP := false
 
 # Recovery
 TARGET_USES_AOSP_RECOVERY := true
