@@ -120,18 +120,20 @@ vendor/firmware/mfc_fw.bin
 -vendor/lib/hw/gralloc.exynos9810.so|78819a1261deff4862ca39a244d8e1bf
 -vendor/lib64/hw/gralloc.exynos9810.so|012cccf9d341e8c0851727e4998f77c5
 
-# GPS/GNSS
--vendor/bin/hw/gpsd
--vendor/bin/hw/lhd
+# GPS/GNSS - N770FXXU8GVG4
+-vendor/bin/hw/gpsd|715cc3de92e9913cd09bd77ff561184b
+-vendor/bin/hw/lhd|7d4dfce04564545fa6a5411abba66c36
 -vendor/bin/hw/vendor.samsung.hardware.gnss@2.0-service
-vendor/etc/gnss/gps.cer
+-vendor/etc/gnss/gps.cer|23319bc3e91ead266696fef65eb61034
 vendor/etc/gnss/gps.xml
 vendor/etc/init/init.gps.rc
 vendor/etc/init/vendor.samsung.hardware.gnss@2.0-service.rc
 vendor/etc/sensor/lhd.conf
--vendor/lib64/hw/gps.default.so
--vendor/lib64/hw/android.hardware.gnss@2.0-impl.so
+-vendor/lib/libwrappergps.so|0d99a53be86b29b273c90a653aad6cbe
+-vendor/lib64/hw/gps.default.so|48808c787459404162fed1972c4ac0bb
+-vendor/lib64/hw/android.hardware.gnss@2.0-impl.so|0a37cf24a4b35f4105979f106b9c73c6
 -vendor/lib64/hw/vendor.samsung.hardware.gnss@2.0-impl.so
+-vendor/lib64/libwrappergps.so|dabf06cb2e9cbae0c473698e9ff0ce98
 -vendor/lib64/vendor.samsung.hardware.gnss@2.0.so
 
 # Graphics/Mali
@@ -288,13 +290,13 @@ vendor/openvx/xml/_hifi_still_schedule.xml
 -vendor/lib/libsecnativefeature.so
 -vendor/lib64/libsecnativefeature.so
 
-# Sensors
+# Sensors - N770FXXU8GVG4
 vendor/etc/sensors/hals.conf
--vendor/lib/sensors.grip.so|6f991b69ff93abfa51cac14547c0fedc
--vendor/lib/sensors.sensorhub.so|34644ad0274c34eb88db0548f648fd92
+-vendor/lib/sensors.grip.so|c5d68a06b7efa508b7762be147d4d14f
+-vendor/lib/sensors.sensorhub.so|5669b4290bbe691e3f6043d982fe95ec
 -vendor/lib64/libflicker.so
--vendor/lib64/sensors.grip.so|d2ca95c5c1b0819bb98ecef199573f62
--vendor/lib64/sensors.sensorhub.so|63225b8e031ed89895796696b22e1ee6
+-vendor/lib64/sensors.grip.so|e7fc359c70449878e596f8f8c6b9e261
+-vendor/lib64/sensors.sensorhub.so|64417e77900716e2f0ed89f4d29b3a72
 
 # Thermal
 vendor/lib/hw/thermal.exynos9810.so
